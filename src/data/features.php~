@@ -105,7 +105,7 @@ foreach($traits["uid"] as $id)
 		array_push($feature_val["status"],$status_count/5000);
 		foreach($like_category as $category)
 		{
-			array_push($feature_val[$category."/total_likes"],$lc_fraction[$category]/5000);
+			array_push($feature_val[$category."/total_likes"],$lc_fraction[$category]/$like_count);
 		}
 		
 	}
