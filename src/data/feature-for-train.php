@@ -1,4 +1,7 @@
 <?php
+
+include("./vendor/autoloader.php");
+use \NlpTools\Tokenizers\WhitespaceAndPunctuationTokenizer;
 /**
  * Export to PHP Array plugin for PHPMyAdmin
  * @version 0.2b
@@ -43,7 +46,7 @@ foreach($features as $f)
 
 
 
-$like_category=["Non-profit organization", "Website", "Community", "Education", "Journalist", "Computers/internet website", "Politician", "Political organization", "Organization", "Tv channel", "App page", "Media/news/publishing", "Non-governmental organization (ngo)", "Community organization", "News/media website", "Political party", "Local business", "Public figure", "Education website", "Entertainment website", "Magazine", "Company", "School", "Just for fun", "Entertainer", "Product/service", "Interest", "Computers", "Studio", "Computers/technology", "Software", "Cause", "Personal blog", "Religion", "Electronics", "University", "Book", "Games/toys", "Tv show", "Movie", "Government organization", "Food/beverages", "Travel/leisure", "Professional sports team", "Cars", "Radio station", "Recreation/sports website", "Fictional character", "Author", "Telecommunication", "Camera/photo", "Music chart", "Clothing", "Athlete", "Retail and consumer merchandise", "Video game", "Book series", "Music", "Musician/band", "Book genre", "Actor/director", "Teacher", "Artist", "Society/culture website", "Writer", "Personal website", "News personality", "Public places", "Consulting/business services", "Sports league", "Education/work status", "Outdoor gear/sporting goods", "Automobiles and parts", "Sports/recreation/activities", "Restaurant/cafe", "Food", "Sports venue", "Movie character", "Government official", "Arts/humanities website", "Bank/financial institution", "Sport", "City", "Song", "Internet/software", "Household supplies", "Attractions/things to do", "Record label", "Comedian", "Arts/entertainment/nightlife", "Airport", "Science website", "Doctor", "Waterfall", "Album", "Bar", "Health/beauty", "Regional website", "Reference website", "Musical genre", "Tv", "Tv/movie award", "Health/medical/pharmaceuticals", "Food/grocery", "Business person", "Jewelry/watches", "Professional services", "Amateur sports team", "Shopping/retail", "Library", "Movie theater", "Literary editor", "Other", "Monarch", "Tv network", "Aerospace/defense", "Publisher", "Work position", "Book store", "Language", "Tv genre", "Small business", "Music video", "Community/government", "Church/religious organization", "Teens/kids website", "Country", "Field of study", "Movie general", "Profession", "Legal/law", "Automotive", "Real estate", "Pet services", "Engineering/construction", "Home improvement", "Home/garden website", "Transport/freight", "Tours/sightseeing", "Hotel", "Chef", "Vitamins/supplements", "Phone/tablet", "Local/travel website", "Business services", "Neighborhood", "Government website", "Hospital/clinic", "Health/wellness website", "Landmark", "Diseases", ];
+$like_category=['Political party', 'Non-profit organization', 'Website', 'Community', 'Education', 'Journalist', 'Just for fun', 'Computers/internet website', 'Politician', 'Political organization', 'Organization', 'Tv channel', 'App page', 'Media/news/publishing', 'Non-governmental organization (ngo)', 'Community organization', 'News/media website', 'Local business', 'Public figure', 'Education website', 'Entertainment website', 'Magazine', 'Company', 'School', 'Entertainer', 'Product/service', 'Interest', 'Computers', 'Studio', 'Computers/technology', 'Software', 'Cause', 'Personal blog', 'Religion', 'Electronics', 'University', 'Book', 'Games/toys', 'Tv show', 'Movie', 'Government organization', 'Food/beverages', 'Travel/leisure', 'Professional sports team', 'Cars', 'Radio station', 'Recreation/sports website', 'Fictional character', 'Author', 'Telecommunication', 'Camera/photo', 'Music chart', 'Clothing', 'Athlete', 'Retail and consumer merchandise', 'Video game', 'Book series', 'Music', 'Musician/band', 'Book genre', 'Actor/director', 'Sports/recreation/activities', 'Tv network', 'Sports league', 'Sport', 'State/province/region', 'City', 'Tv genre', 'Teacher', 'Artist', 'Society/culture website', 'Writer', 'Personal website', 'News personality', 'Public places', 'Consulting/business services', 'Education/work status', 'Outdoor gear/sporting goods', 'Automobiles and parts', 'Restaurant/cafe', 'Food', 'Sports venue', 'Movie character', 'Government official', 'Arts/humanities website', 'Bank/financial institution', 'Song', 'Internet/software', 'Household supplies', 'Attractions/things to do', 'Record label', 'Comedian', 'Arts/entertainment/nightlife', 'Airport', 'Science website', 'Doctor', 'Waterfall', 'Album', 'Bar', 'Health/beauty', 'Regional website', 'Reference website', 'Musical genre', 'Tv', 'Tv/movie award', 'Health/medical/pharmaceuticals', 'Food/grocery', 'Business person', 'Jewelry/watches', 'Professional services', 'Amateur sports team', 'Shopping/retail', 'Library', 'Movie theater', 'Literary editor', 'Other', 'Monarch', 'Aerospace/defense', 'Publisher', 'Work position', 'Book store', 'Language', 'Small business', 'Music video', 'Community/government', 'Church/religious organization', 'Teens/kids website', 'Country', 'Field of study', 'Movie general', 'Profession', 'Legal/law', 'Automotive', 'Real estate', 'Pet services', 'Engineering/construction', 'Home improvement', 'Home/garden website', 'Transport/freight', 'Tours/sightseeing', 'Hotel', 'Chef', 'Vitamins/supplements', 'Phone/tablet', 'Local/travel website', 'Business services', 'Neighborhood', 'Government website', 'Hospital/clinic', 'Health/wellness website', 'Landmark', 'Diseases', 'Club', 'Drugs', 'Event planning/event services', 'Museum/art gallery', 'Photographer', 'Producer', 'Concentration or major', 'Health/medical/pharmacy',  ];
 
 $inputs=array();
 foreach($features as $f)
@@ -54,7 +57,7 @@ foreach($features as $f)
 foreach($features as $in)
 {
 	$id=$in['uid'];
-	print $id;
+	//print $id;
 	$file=fopen($id.".data","r");
 	if($file!=NULL)
 	{
@@ -107,6 +110,75 @@ foreach($features as $in)
 		{
 			$inputs[$id][$lc.'/total_likes'] = $lc_fraction[$lc]/$like_count;
 		}
+		
+		$statuses = $data["statuses"]["data"];
+		$text="";
+		foreach( $statuses as $status)
+		{
+			if(isset($status["message"]))
+				$text = $text." ".$status["message"];
+		}
+		//print_r($statuses[0]);
+		//print_r($statuses);
+		
+ 
+ 
+		$punct = new WhitespaceAndPunctuationTokenizer();
+ 
+	
+		$tokens = $punct->tokenize($text);
+	
+		$lower = [];
+		foreach($tokens as $token)
+		{
+			array_push($lower, strtolower($token));
+		}
+ 
+ 		$first_singular = ["i", "i'm", "me", "mine", "my", "myself"];
+ 		$first_plural = ["we", "we're", "us", "our", "ours", "ourselves"];
+ 		$second = ["you", "you're", "yours"];
+ 		$third_singular = ["he", "she", "her", "his", "him", "himself", "herself"];
+ 		$third_plural = ["they", "theirs", "their", "them"];
+ 		$relative = ["that", "which", "who", "whom", "whose", "which ever", "whoever", "whomever"];
+ 		$indefinite_singular = ["anybody", "anyone", "anything", "each", "either", "everybody", "everyone", "everything", "neither", "nobody", "nothing", "one", "somebody", "someone", "something"];
+ 		$indefinite_plural = ["both", "few", "many", "several"];
+ 		$indefinite_sorp = ["all", "any", "most", "none", "some"];
+ 		$symbols = [".", "?", ",", "<", ">", "/", "'", ";", ":", "[", "{", "]", "}", "`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "+", "="];
+ 	
+ 		$feat=["fs" => 0, "fp" => 0, "s" => 0, "ts" => 0, "tp" => 0, "rel" => 0, "is" => 0, "ip" => 0, "isop" => 0, "sym" => 0];
+ 	
+ 		foreach($lower as $l)
+ 		{
+ 			if ( in_array($l, $first_singular))
+ 				$feat["fs"]+=1;
+			else if(in_array($l, $first_plural))
+				$feat["fp"]+=1;
+			else if(in_array($l, $second))
+				$feat["s"]+=1;
+			else if(in_array($l, $third_singular))
+				$feat["ts"]+=1;
+			else if(in_array($l, $third_plural))
+				$feat["tp"]+=1;
+			else if(in_array($l, $relative))
+				$feat["rel"]+=1;
+			else if(in_array($l, $indefinite_singular))
+				$feat["is"]+=1;
+			else if(in_array($l, $indefinite_plural))
+				$feat["ip"] += 1;
+			else if(in_array($l, $indefinite_sorp))
+				$feat["isop"]+=1;
+			else if(in_array($l, $symbols))
+ 				$feat["sym"]+=1;
+ 		}
+ 		foreach($feat as $key=>$val)
+ 		{
+ 			$feat[$key]/=(count($lower)+1);
+ 			$inputs[$id][$key]=$feat[$key];
+ 		}
+ 		$feat["wps"] = count($lower)/count($statuses);
+ 		$inputs[$id]["wps"]=$feat["wps"];
+ 		print count($inputs[$id]);
+		
 	}
 	else
 	{
@@ -152,10 +224,25 @@ foreach($features as $f)
 	$in = $in.$inputs[$id]['group_count'].", ";
 	$in = $in.$inputs[$id]['like_count'].", ";
 	$in = $in.$inputs[$id]['status_count'].", ";
+	
+	$in = $in.$inputs[$id]['fs'].", ";
+	$in = $in.$inputs[$id]['fp'].", ";
+	$in = $in.$inputs[$id]['s'].", ";
+	$in = $in.$inputs[$id]['ts'].", ";
+	$in = $in.$inputs[$id]['tp'].", ";
+	$in = $in.$inputs[$id]['rel'].",";
+	$in = $in.$inputs[$id]['is'].", ";
+	$in = $in.$inputs[$id]['ip'].", ";
+	$in = $in.$inputs[$id]['isop'].", ";
+	$in = $in.$inputs[$id]['sym'].", ";
+	$in = $in.$inputs[$id]['wps'].", ";
 	foreach($like_category as $lc)
 	{
 		$in = $in.$inputs[$id][$lc.'/total_likes'].", ";
 	}
+	
+	
+	
 	$in = $in."), \ "."\n";
 }
 $in=$in."}\n";

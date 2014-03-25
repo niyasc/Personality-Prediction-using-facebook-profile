@@ -1,0 +1,11 @@
+<?php
+require('./vendor/autoloader.php');
+ 
+use NlpTools\Tokenizers\WhitespaceAndPunctuationTokenizer;
+ 
+$text = "Please allow me to introduce myself 
+        I'm a man of wealth and taste";
+ 
+$tok = new WhitespaceAndPunctuationTokenizer();
+ 
+print_r($tok->tokenize($text));

@@ -94,7 +94,7 @@ def main():
 		print 'Number of hidden layers', hidden_layers
 		y[hidden_layers]=[]
 		for i in x :
-			print 'Number of training tuples', i
+			print 'Number of folds', i
 			y[hidden_layers].append(find_accuracy(i,ids,hidden_layers))
 	#print x
 	#print y

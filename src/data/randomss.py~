@@ -52,7 +52,7 @@ def find_accuracy(n, ids, hidden_layers):
 	if n >= len(ids):
 		raise InvalidNumberofTraniningTuples
 	ERRORS = [] #store error in each iteration
-	for i in range(0, 1):
+	for i in range(0, 10):
 		print 'Iteration Number', i
 		train_set = []
 		test_set = []
