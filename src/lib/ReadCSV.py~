@@ -1,0 +1,22 @@
+def ReadCSV(filename):
+	'''
+		read a csv file an return a dictionary in which first element of each row will be key and 
+		other elements will be listed as list
+	'''
+	try:
+		f = open(filename, 'r')
+	except :
+		print "File not found"
+		return None
+	lines = f.read()
+	f.close()
+	
+	lines = lines.split('\n')
+	lines.pop()
+	l = {}
+	for line in lines:
+		t = line.split(',')
+		l[int(t[0])]= t[1:]
+	
+	return l
+		
