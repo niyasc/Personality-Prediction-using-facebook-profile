@@ -72,12 +72,12 @@ def find_accuracy(n, ids, hidden_layers, inputs, outputs):
 		for id in test_set:
 			predicted=net.activate(inputs[id]);
 			actual= outputs[id];
-			e=0
+			e= []
 			for i in range(5):
 				d=abs(predicted[i]-actual[i])
-				if d>e:
-					e=d
-			errors.append((e/5)*100)
+				e.append(d)
+				
+			errors.append(((sum(e)/len(e))/5)*100)
 		ERRORS.append((sum(errors)/len(errors)))
 	return (100 - sum(ERRORS)/len(ERRORS)) # Return 100 - average error
 	
@@ -88,10 +88,10 @@ def main():
 	x = []
 	y = {}
 	
-	for i in range(2, 14, 2):
+	for i in range(3, 19, 3):
 		x.append(i)
 	
-	for hidden_layers in range(5, 6) : #change loop for plot also if you change here
+	for hidden_layers in range(1, 7) : #change loop for plot also if you change here
 		print 'Number of hidden layers', hidden_layers
 		y[hidden_layers]=[]
 		for i in x :
@@ -100,7 +100,7 @@ def main():
 	#print x
 	#print y
 	#Now plot the graph
-	for i in range(5, 6) :
+	for i in range(1, 7) :
 		t=pylab.plot(x,y[i],label="Number of hidden layers "+str(i),linewidth=4,linestyle='-')
 	t=pylab.xlabel("Number of training tuples")
 	t=pylab.ylabel("Accuracy %")	

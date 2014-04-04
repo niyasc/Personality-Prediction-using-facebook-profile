@@ -60,12 +60,11 @@ def find_accuracy(k, ids, hidden_layers, inputs, outputs):
 		for id in test_set:
 			predicted=net.activate(inputs[id]);
 			actual= outputs[id];
-			e=0
+			e=[]
 			for i in range(5):
 				d=abs(predicted[i]-actual[i])
-				if d>e:
-					e=d
-			errors.append((e/5)*100)
+				e.append(d)
+			errors.append(((sum(e)/len(e))/5)*100)
 		ERRORS.append((sum(errors)/len(errors)))
 	return (100 - sum(ERRORS)/len(ERRORS)) # Return 100 - average error
 	
@@ -76,7 +75,7 @@ def main():
 	x = []
 	y = {}
 	
-	for i in range(2, 8) :
+	for i in range(2, 11, 2) :
 		x.append(i)
 	
 	for hidden_layers in range(1, 6) : #change loop for plot also if you change here

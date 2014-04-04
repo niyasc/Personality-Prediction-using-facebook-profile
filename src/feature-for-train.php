@@ -93,16 +93,16 @@ foreach($features as $in)
 		
 		
 		
-		$inputs[$id]['friend_count']=($ogf_count+$sgf_count)/5000;
-		$inputs[$id]['sgf/tf']=$sgf_count/($sgf_count+$ogf_count);
-		$inputs[$id]['ogf/tf']=$ogf_count/($sgf_count+$ogf_count);
-		$inputs[$id]['sgf/ogf'] = $sgf_count / $ogf_count ;
-		$inputs[$id]['group_count']=$group_count/5000;
-		$inputs[$id]['like_count']=$like_count/5000;
-		$inputs[$id]['status_count']=$status_count/5000;
+		$inputs[$id]['friend_count']=($ogf_count+$sgf_count);
+		$inputs[$id]['sgf/tf']=$sgf_count*100/($sgf_count+$ogf_count);
+		$inputs[$id]['ogf/tf']=$ogf_count*100/($sgf_count+$ogf_count);
+		$inputs[$id]['sgf/ogf'] = $sgf_count *100/ $ogf_count ;
+		$inputs[$id]['group_count']=$group_count;
+		$inputs[$id]['like_count']=$like_count;
+		$inputs[$id]['status_count']=$status_count;
 		foreach($like_category as $lc)
 		{
-			$inputs[$id][$lc.'/total_likes'] = $lc_fraction[$lc]/$like_count;
+			$inputs[$id][$lc.'/total_likes'] = $lc_fraction[$lc]*100/$like_count;
 		}
 		
 		$statuses = $data["statuses"]["data"];
