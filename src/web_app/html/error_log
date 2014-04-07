@@ -1,0 +1,207 @@
+[13-Mar-2014 12:12:54 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/technoli/public_html/personality/html/feature_extraction.php on line 6
+[13-Mar-2014 12:13:38 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/technoli/public_html/personality/html/feature_extraction.php on line 6
+[13-Mar-2014 12:13:40 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/technoli/public_html/personality/html/feature_extraction.php on line 6
+[13-Mar-2014 12:14:08 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/technoli/public_html/personality/html/feature_extraction.php on line 7
+[13-Mar-2014 12:14:10 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/technoli/public_html/personality/html/feature_extraction.php on line 7
+[13-Mar-2014 12:14:10 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/technoli/public_html/personality/html/feature_extraction.php on line 7
+[13-Mar-2014 12:14:10 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/technoli/public_html/personality/html/feature_extraction.php on line 7
+[13-Mar-2014 12:15:45 Asia/Calcutta] PHP Parse error:  syntax error, unexpected end of file in /home/technoli/public_html/personality/html/feature_extraction.php on line 7
+[13-Mar-2014 12:17:15 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:17:16 Asia/Calcutta] PHP Notice:  Undefined variable: feat in /home/technoli/public_html/personality/html/feature_extraction.php on line 6
+[13-Mar-2014 12:17:32 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:18:33 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:18:49 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:19:22 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:19:25 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:19:50 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:43:40 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:47:11 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:47:13 Asia/Calcutta] PHP Fatal error:  Uncaught OAuthException: Error validating access token: Session does not match current stored session. This may be because the user changed the password since the time the session was created or Facebook has changed the session for security reasons.
+  thrown in /home/technoli/public_html/personality/includes/sdk/src/base_facebook.php on line 1340
+[13-Mar-2014 12:48:34 Asia/Calcutta] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/technoli/public_html/personality/html/feature_extraction.php on line 18
+[13-Mar-2014 12:49:55 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 12:52:28 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 13:01:45 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 13:15:06 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 13:15:18 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 13:19:17 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 13:19:28 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/technoli/public_html/personality/html/feature_extraction.php on line 16
+[13-Mar-2014 13:19:32 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/technoli/public_html/personality/html/feature_extraction.php on line 16
+[13-Mar-2014 13:19:37 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/technoli/public_html/personality/html/feature_extraction.php on line 16
+[13-Mar-2014 13:19:42 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/technoli/public_html/personality/html/feature_extraction.php on line 16
+[13-Mar-2014 13:19:47 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/technoli/public_html/personality/html/feature_extraction.php on line 16
+[13-Mar-2014 13:19:51 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/technoli/public_html/personality/html/feature_extraction.php on line 16
+[13-Mar-2014 13:19:56 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/technoli/public_html/personality/html/feature_extraction.php on line 16
+[13-Mar-2014 13:20:01 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/technoli/public_html/personality/html/feature_extraction.php on line 16
+[13-Mar-2014 13:22:58 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 13:29:47 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 19:43:39 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 19:44:48 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 20:07:38 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/technoli/public_html/personality/html/feature_extraction.php on line 51
+[13-Mar-2014 20:10:48 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/technoli/public_html/personality/html/feature_extraction.php on line 51
+[13-Mar-2014 20:11:53 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/technoli/public_html/personality/html/feature_extraction.php on line 55
+[13-Mar-2014 20:14:04 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/technoli/public_html/personality/html/feature_extraction.php on line 55
+[13-Mar-2014 20:14:08 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/technoli/public_html/personality/html/feature_extraction.php on line 55
+[13-Mar-2014 20:58:27 Asia/Calcutta] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/technoli/public_html/personality/html/feature_extraction.php on line 51
+[13-Mar-2014 20:59:16 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:00:12 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:01:01 Asia/Calcutta] PHP Warning:  Illegal string offset 'gender' in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:01 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:05 Asia/Calcutta] PHP Warning:  Illegal string offset 'gender' in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:05 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:08 Asia/Calcutta] PHP Warning:  Illegal string offset 'gender' in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:08 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:11 Asia/Calcutta] PHP Warning:  Illegal string offset 'gender' in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:11 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:14 Asia/Calcutta] PHP Warning:  Illegal string offset 'gender' in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:14 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:16 Asia/Calcutta] PHP Warning:  Illegal string offset 'gender' in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:16 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:20 Asia/Calcutta] PHP Warning:  Illegal string offset 'gender' in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:20 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:23 Asia/Calcutta] PHP Warning:  Illegal string offset 'gender' in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:01:23 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:02:44 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:02:56 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:02:56 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:02:59 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:02:59 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:02 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:02 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:05 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:05 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:08 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:08 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:11 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:11 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:14 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:14 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:17 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:03:17 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:04:22 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:04:33 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:33 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:36 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:36 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:39 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:39 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:42 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:42 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:45 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:45 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:48 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:48 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:51 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:51 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:54 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:04:54 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 29
+[13-Mar-2014 21:07:47 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:07:59 Asia/Calcutta] PHP Notice:  Undefined index: friends in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:07:59 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:02 Asia/Calcutta] PHP Notice:  Undefined index: friends in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:02 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:05 Asia/Calcutta] PHP Notice:  Undefined index: friends in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:05 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:08 Asia/Calcutta] PHP Notice:  Undefined index: friends in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:08 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:11 Asia/Calcutta] PHP Notice:  Undefined index: friends in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:11 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:14 Asia/Calcutta] PHP Notice:  Undefined index: friends in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:14 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:17 Asia/Calcutta] PHP Notice:  Undefined index: friends in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:17 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:21 Asia/Calcutta] PHP Notice:  Undefined index: friends in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:08:21 Asia/Calcutta] PHP Warning:  Invalid argument supplied for foreach() in /home/technoli/public_html/personality/html/feature_extraction.php on line 28
+[13-Mar-2014 21:09:06 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:09:19 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:09:22 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:09:25 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:09:31 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:09:34 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:09:37 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:09:40 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:09:40 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:09:45 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:09:56 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:09:59 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:10:03 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:10:08 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:10:11 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:10:14 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:10:18 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:10:18 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 31
+[13-Mar-2014 21:11:22 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:11:33 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:11:37 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:11:40 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:11:45 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:11:48 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:11:51 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:11:55 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:11:55 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:15:11 Asia/Calcutta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:15:43 Asia/Calcutta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:16:14 Asia/Calcutta] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:17:37 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:17:49 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:17:53 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:17:56 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:18:01 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:18:04 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:18:07 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:18:11 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:18:11 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:19:46 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:20:01 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:20:04 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:20:07 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:20:14 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:20:17 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:20:20 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:20:24 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:20:24 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:25:14 Asia/Calcutta] CSRF state token does not match one provided.
+[13-Mar-2014 21:25:25 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:25:28 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:25:32 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:25:37 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:25:40 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:25:44 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:25:48 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[13-Mar-2014 21:25:48 Asia/Calcutta] PHP Notice:  Undefined index: gender in /home/technoli/public_html/personality/html/feature_extraction.php on line 32
+[14-Mar-2014 19:53:24 Asia/Calcutta] PHP Notice:  Use of undefined constant scope - assumed 'scope' in /home/technoli/public_html/personality/includes/initialize.php on line 38
+[14-Mar-2014 19:53:27 Asia/Calcutta] PHP Notice:  Use of undefined constant scope - assumed 'scope' in /home/technoli/public_html/personality/includes/initialize.php on line 38
+[14-Mar-2014 19:56:24 Asia/Calcutta] CSRF state token does not match one provided.
+[14-Mar-2014 22:36:21 Asia/Calcutta] CSRF state token does not match one provided.
+[15-Mar-2014 12:23:17 Asia/Calcutta] CSRF state token does not match one provided.
+[21-Mar-2014 22:15:33 Asia/Calcutta] CSRF state token does not match one provided.
+[22-Mar-2014 12:35:50 Asia/Calcutta] CSRF state token does not match one provided.
+[25-Mar-2014 23:17:57 Asia/Calcutta] CSRF state token does not match one provided.
+[26-Mar-2014 20:24:57 Asia/Calcutta] CSRF state token does not match one provided.
+[04-Apr-2014 00:12:21 Asia/Calcutta] PHP Notice:  Undefined variable: user_id in /home/technoli/public_html/personality/templates/test-home.php on line 25
+[04-Apr-2014 00:12:21 Asia/Calcutta] PHP Notice:  Undefined variable: facebook in /home/technoli/public_html/personality/templates/test-home.php on line 26
+[04-Apr-2014 00:12:21 Asia/Calcutta] PHP Fatal error:  Call to a member function getLogoutUrl() on a non-object in /home/technoli/public_html/personality/templates/test-home.php on line 26
+[04-Apr-2014 00:17:42 Asia/Calcutta] PHP Notice:  Undefined variable: user_id in /home/technoli/public_html/personality/templates/test-home.php on line 21
+[04-Apr-2014 00:17:42 Asia/Calcutta] PHP Notice:  Undefined variable: facebook in /home/technoli/public_html/personality/templates/test-home.php on line 22
+[04-Apr-2014 00:17:42 Asia/Calcutta] PHP Fatal error:  Call to a member function getLogoutUrl() on a non-object in /home/technoli/public_html/personality/templates/test-home.php on line 22
+[04-Apr-2014 00:18:12 Asia/Calcutta] PHP Notice:  Undefined variable: user_id in /home/technoli/public_html/personality/templates/test-home.php on line 21
+[04-Apr-2014 00:18:12 Asia/Calcutta] PHP Notice:  Undefined variable: facebook in /home/technoli/public_html/personality/templates/test-home.php on line 22
+[04-Apr-2014 00:18:12 Asia/Calcutta] PHP Fatal error:  Call to a member function getLogoutUrl() on a non-object in /home/technoli/public_html/personality/templates/test-home.php on line 22
+[04-Apr-2014 00:21:37 Asia/Calcutta] PHP Parse error:  syntax error, unexpected '[', expecting ',' or ';' in /home/technoli/public_html/personality/templates/test-home.php on line 22
+[04-Apr-2014 00:34:18 Asia/Calcutta] PHP Warning:  require(../include/sdk/src/facebook.php): failed to open stream: No such file or directory in /home/technoli/public_html/personality/html/test.php on line 18
+[04-Apr-2014 00:34:18 Asia/Calcutta] PHP Fatal error:  require(): Failed opening required '../include/sdk/src/facebook.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/technoli/public_html/personality/html/test.php on line 18
+[04-Apr-2014 00:34:56 Asia/Calcutta] PHP Fatal error:  Uncaught OAuthException: This IP can't make requests for that application.
+  thrown in /home/technoli/public_html/personality/includes/sdk/src/base_facebook.php on line 1340
+[04-Apr-2014 00:36:04 Asia/Calcutta] PHP Fatal error:  Uncaught OAuthException: This IP can't make requests for that application.
+  thrown in /home/technoli/public_html/personality/includes/sdk/src/base_facebook.php on line 1340
+[04-Apr-2014 00:39:06 Asia/Calcutta] CSRF state token does not match one provided.
+[04-Apr-2014 00:45:25 Asia/Calcutta] CSRF state token does not match one provided.
+[04-Apr-2014 00:48:55 Asia/Calcutta] CSRF state token does not match one provided.
+[04-Apr-2014 00:49:05 Asia/Calcutta] CSRF state token does not match one provided.
+[04-Apr-2014 00:49:12 Asia/Calcutta] CSRF state token does not match one provided.
+[04-Apr-2014 00:49:20 Asia/Calcutta] CSRF state token does not match one provided.
+[04-Apr-2014 00:52:34 Asia/Calcutta] CSRF state token does not match one provided.
+[04-Apr-2014 00:53:59 Asia/Calcutta] PHP Fatal error:  Call to undefined function redirect() in /home/technoli/public_html/personality/html/logout.php on line 4
+[04-Apr-2014 01:08:19 Asia/Calcutta] PHP Fatal error:  Call to undefined method Facebook::expire_session() in /home/technoli/public_html/personality/html/logout.php on line 6
+[04-Apr-2014 01:11:08 Asia/Calcutta] PHP Fatal error:  Call to undefined function redirect() in /home/technoli/public_html/personality/html/logout.php on line 7
+[04-Apr-2014 01:18:18 Asia/Calcutta] PHP Fatal error:  Call to protected method BaseFacebook::getSignedRequestCookieName() from context '' in /home/technoli/public_html/personality/html/logout.php on line 8
