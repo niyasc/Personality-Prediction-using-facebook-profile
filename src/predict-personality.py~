@@ -1,0 +1,25 @@
+from pybrain.tools.shortcuts import buildNetwork
+from pybrain.datasets import SupervisedDataSet
+from pybrain.structure import TanhLayer
+from pybrain.supervised.trainers import BackpropTrainer
+import pickle
+
+import sys
+
+sys.path.append('./lib')
+
+from ReadCSV import ReadCSV
+
+new_input = ReadCSV("newinput.csv")
+net = pickle.load(open("neuralNet.sl", "r"))
+
+input = new_input[new_input.keys()[0]]
+traits = net.activate(input)
+
+text = ""
+for trait in traits:
+	text = text + str(trait) + " "
+
+file = open("predicted.txt", "w")
+file.write(text)
+file.close()

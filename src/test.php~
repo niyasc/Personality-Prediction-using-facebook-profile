@@ -1,0 +1,4 @@
+<?php
+	include "predict-personality.php";
+	$traits = predictPersonality("100001329861500");
+	print_r($traits);
