@@ -1,0 +1,36 @@
+.header-section
+{
+background:#f2f2f2 ;
+height:10%;
+width:1200px;
+margin-left:auto;
+margin-right:auto;
+}
+.header
+{
+	color:white;
+	font-size:20px;
+}
+.promo
+{
+	font-size:18px;
+	color:silver ;
+}
+.footer-bg
+{
+background:black ;
+height:10%;
+width:1200px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+color:white;
+
+}
+.content
+{
+	width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	height:80%;
+}
