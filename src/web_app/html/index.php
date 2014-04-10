@@ -19,5 +19,5 @@ $data=serialize($data);
 $file=fopen('./data/'.$user_id.'.data','w');
 fwrite($file,$data);
 fclose($file);
-redirect("index-test.php");
+redirect("index-home.php");
 ?>
