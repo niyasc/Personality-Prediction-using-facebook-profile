@@ -5,57 +5,72 @@
 	<img src = "<?=$values["image"]?>" style = "width:100px"/> 
 </div>
 
-<table class='table table-striped table-bordered' style = "width:400px; margin-left:auto; margin-right:auto">
-	<tr>
-		<td>
-			<table class='table table-striped table-bordered'>
-				<tr>
-					<td>
-						<h4>Traits</h4>
-					</td>
-				</tr>
-				<?php
-				foreach($values["predicted"] as $key=>$value)
-				{
-					echo "<tr>";
-						echo "<td>";
-							echo $key;
-						echo "</td>";
-					echo "</tr>";
-				}
-				?>
-			</table>
+<?php
+	$traits = $values["traits"];
+	$names = ["Extraversion", "Agreeableness", "Conscientiousness", "Neuroticism", "Openness"];
+	if(count($traits[0])==1) //User has not attended the questions
+	{
+		echo "<table class = 'table table-striped table-borderd table-condensed' style='margin-left:auto; margin-right:auto'>";
+			echo "<tr>";
+				echo "<td>";
+					<h4>Traits</h4>
+				echo "</td>";
+				echo "<td>";
+					<h4>Predicted Value</h4>
+				echo "</td>";
+			echo "</tr>";
+			$i = 0;
+			while($i < 5)
+			{
+				echo "<tr>";
+					echo "<td>";
+						echo $names[$i];
+					echo "</td>";
+					echo "<td>";
+						echo round($traits[$i], 2);
+					echo "</td>";
+				echo "</tr>";
+				$i += 1;
+			}
+		echo "</table>";
+	}
+	else
+	{
+		echo "<table class = 'table table-striped table-borderd table-condensed' style='margin-left:auto; margin-right:auto'>";
+			echo "<tr>";
+				echo "<td>";
+					<h4>Traits</h4>
+				echo "</td>";
+				echo "<td>";
+					<h4>Predicted Value</h4>
+				echo "</td>";
+				echo "<td>";
+					<h4>Actual Value</h4>
+				echo "</td>";
+				echo "<td>";
+					<h4>Error</h4>
+				echo "</td>";
 				
-		</td>
+			echo "</tr>";
+			$i = 0;
+			while($i < 5)
+			{
+				echo "<tr>";
+					echo "<td>";
+						echo $names[$i];
+					echo "</td>";
+					echo "<td>";
+						echo round($traits[$i][0], 2);
+					echo "</td>";
+					echo "<td>";
+						echo round($traits[$i][1], 2);
+					echo "</td>";
+					echo "<td>";
+						echo round($traits[$i][2], 2);
+					echo "</td>";
+				echo "</tr>";
+				$i += 1;
+			}
+		echo "</table>";
+	}
 
-		<td>
-			<table class='table table-striped table-bordered'>
-				<tr>
-					<td>
-						<h4>Predicted Values</h4>
-					</td>
-				</tr>
-				<?php
-					foreach($values['predicted'] as $value)
-					{
-						echo "<tr>";
-							echo "<td>";
-								echo round($value, 2);
-							echo "</td>";
-						echo "</tr>";			
-					}
-				?>
-			</table>
-
-		</td>
-
-		<td>
-			Actual if any
-		</td>
-		
-		<td>
-			Error
-		</td>
-	</tr>
-</table>
-	

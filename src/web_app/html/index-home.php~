@@ -23,15 +23,10 @@
 [$traits_predicted[3], $traits_actual['neuroticism'], abs($traits_predicted[3]-$traits_actual['neuroticism'])*25],
 [$traits_predicted[4], $traits_actual['openness'], abs($traits_predicted[4]-$traits_actual['openness'])*25]
 ];
-}
-else
-{
-	$traits = $traits_predicted;
-}
 
  //print_r($traits_actual);
  $image = "https://graph.facebook.com/me/picture?type=large&access_token=".$access_token;
  $name = $facebook->api('/me?field=name','GET',array('access_token' => $access_token));
- render("home.php", ["title" => "Personality Predictor", "traits" => $traits, "image" => $image, "name" => $name]); 
+ render("home.php", ["title" => "Personality Predictor", "predicted" => $traits_predicted, "actual" => $traits_actual, "image" => $image, "name" => $name]); 
 
 ?>
