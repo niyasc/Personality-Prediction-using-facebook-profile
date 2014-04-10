@@ -5,13 +5,13 @@
 	<img src = "<?=$values["image"]?>" style = "width:100px"/> 
 </div>
 
-<table>
+<table class='table table-striped table-bordered' style = "width:400px; margin-left:auto; margin-right:auto">
 	<tr>
 		<td>
-			<table>
+			<table class='table table-striped table-bordered'>
 				<tr>
 					<td>
-						Traits
+						<h4>Traits</h4>
 					</td>
 				</tr>
 				<?php
@@ -29,7 +29,24 @@
 		</td>
 
 		<td>
-			Predicted
+			<table class='table table-striped table-bordered'>
+				<tr>
+					<td>
+						<h4>Predicted Values</h4>
+					</td>
+				</tr>
+				<?php
+					foreach($values['predicted'] as $value)
+					{
+						echo "<tr>";
+							echo "<td>";
+								echo round($value, 2);
+							echo "</td>";
+						echo "</tr>";			
+					}
+				?>
+			</table>
+
 		</td>
 
 		<td>

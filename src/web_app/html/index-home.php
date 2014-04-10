@@ -12,6 +12,14 @@
  }
  else
    $traits_actual = $actual[0];
+
+ $traits = [];
+
+ if(isset($traits_actual))
+ {
+	$traits = [ [$traits_predicted[0], $traits_actual['extraversion'], abs($traits_predicted[0]-$traits_actual['extraversion'])*25],
+[$traits_predicted[0]
+
  //print_r($traits_actual);
  $image = "https://graph.facebook.com/me/picture?type=large&access_token=".$access_token;
  $name = $facebook->api('/me?field=name','GET',array('access_token' => $access_token));
