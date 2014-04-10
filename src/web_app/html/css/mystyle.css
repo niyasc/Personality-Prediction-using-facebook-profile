@@ -36,7 +36,5 @@ border:1px solid #96f0ff; -webkit-border-radius: 3px; -moz-border-radius: 3px;bo
 	height:5%;
 	background:black;
 	color:white;
-	position:absolute;
-	bottom:0px;
 	width:100%;
 }
