@@ -37,7 +37,7 @@ def constructNet(ids, inputs, outputs):
 	for id in ids:
 		ds.addSample(inputs[id],outputs[id])
 
-	trainer = BackpropTrainer(net, ds)
+	trainer = BackpropTrainer(net, ds, learningrate = 0.001, momentum = 0.001)
 	'''for t in range(0, 1000):
 	trainer.train()'''
 	trainer.trainUntilConvergence(maxEpochs=1000)
