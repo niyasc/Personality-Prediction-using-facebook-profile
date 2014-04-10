@@ -46,7 +46,7 @@
 	                   query("insert into features values(?,?,?,?,?,?)",$id,$result["1"],$result["2"],$result["3"],$result["4"],$result["5"]); 
 
                         }
-			render("show-result.php",array("title"=>"Result","result"=>$result,"name"=>$name,"id"=>$id));
+			redirect("index-home.php");
 		}
 		else
 		{
