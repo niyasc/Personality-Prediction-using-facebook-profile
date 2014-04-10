@@ -8,24 +8,7 @@
 <table>
 	<tr>
 		<td>
-			<table>
-				<tr>
-					<td>
-						Traits
-					</td>
-				</tr>
-				<?php
-				foreach($values["predicted"] as $key=>$value)
-				{
-					echo "<tr>";
-						echo "<td>";
-							echo $key;
-						echo "</td>";
-					echo "</tr>";
-				}
-				?>
-			</table>
-				
+			Trait names
 		</td>
 
 		<td>
