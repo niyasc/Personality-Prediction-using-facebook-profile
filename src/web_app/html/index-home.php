@@ -2,7 +2,7 @@
 
  require("../includes/initialize.php");
  require("../includes/config.php");
- require("./predict-personality.php");
+ include("predict-personality.php");
  //user_id is avilabe
  $traits_predicted = predictPersonality($user_id);
  //print_r($traits_predicted);
