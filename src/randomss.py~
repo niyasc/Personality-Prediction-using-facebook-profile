@@ -91,7 +91,7 @@ def main():
 	for i in range(3, 24, 3):
 		x.append(i)
 	
-	for hidden_layers in range(1, 7) : #change loop for plot also if you change here
+	for hidden_layers in range(3, 4) : #change loop for plot also if you change here
 		print 'Number of hidden layers', hidden_layers
 		y[hidden_layers]=[]
 		for i in x :
@@ -100,7 +100,7 @@ def main():
 	#print x
 	#print y
 	#Now plot the graph
-	for i in range(1, 7) :
+	for i in range(3, 4) :
 		t=pylab.plot(x,y[i],label="Number of hidden layers "+str(i),linewidth=4,linestyle='-')
 	t=pylab.xlabel("Number of training tuples")
 	t=pylab.ylabel("Accuracy %")	

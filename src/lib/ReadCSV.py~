@@ -16,7 +16,11 @@ def ReadCSV(filename):
 	l = {}
 	for line in lines:
 		t = line.split(',')
-		l[int(t[0])]= t[1:]
+		t2=[]
+		for n in t[1:]:
+			print n
+			t2.append(float(n))
+		l[int(t[0])]= t2
 	
 	return l
 		
