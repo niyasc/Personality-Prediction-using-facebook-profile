@@ -44,6 +44,7 @@
 			}
 		echo "</table>";
 		echo "<div style='text-align:center'>";
+		echo "You may attend Personality Quiz to compare your actual and predicted personality trait values<br/>";
 			echo "<a href='index-test.php' class='btn btn-primary'>";
 				echo "<h4>Take Personality Quiz</h4>";
 			echo "</a>";

@@ -1,6 +1,6 @@
 <?php
-	include("./data/vendor/autoloader.php");
-	use NlpTools\Tokenizers\WhitespaceAndPunctuationTokenizer;
+	//include("data/vendor/autoloader.php");
+	//use \NlpTools\Tokenizers\WhitespaceAndPunctuationTokenizer;
 	
 	function predictPersonality($id)
 	{
@@ -71,10 +71,11 @@
 			
  	
  	
-			$punct = new WhitespaceAndPunctuationTokenizer();
+			//$punct = new WhitespaceAndPunctuationTokenizer();
  	
 		
-			$tokens = $punct->tokenize($text);
+			$tokens = explode(" ", $text);
+			//$tokens = $punct->tokenize($text);
 		
 			$lower = [];
 			foreach($tokens as $token)
